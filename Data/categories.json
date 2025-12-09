@@ -1,52 +1,404 @@
 [
-    {
-      "id": "01",
-      "author": "Tamy Chapman",
-      "name": "UI/UX DESIGN",
-      "rating":"5.00",
-      "author_img":"https://media.istockphoto.com/photos/confident-young-man-in-casual-green-shirt-looking-away-standing-with-picture-id1324558913?k=20&m=1324558913&s=612x612&w=0&h=U0XYpDKe9XqHgZGvjgo98poEC_20QO-UePiNY8_87jI=",
-    "img": "https://media.istockphoto.com/photos/website-designer-creative-planning-application-developer-development-picture-id1206638576?b=1&k=20&m=1206638576&s=170667a&w=0&h=NxHnlT5fVqBEVAPmM8Me77cC6JCLZrTFYlnI6VYyeXE="
-    },
-    {
-      "id": "02",
-      "author": "Dana Saito",
-      "name":  "COMPUTER NETWORK",
-      "rating":"4.89",
-      "author_img":"https://media.istockphoto.com/photos/portrait-of-smiling-professor-in-the-amphitheater-picture-id1128666909?k=20&m=1128666909&s=612x612&w=0&h=Kuk_id7fnDBVBW-2SpGjId0wptbUUefyVhM7RzaPeOI=",
-      "img":"https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__340.jpg"
-    },
-    
-    {
-      "id": "04",
-      "author": "Brad Gilpin",
-      "rating":"5.00",
-      "name":  "MICROPROCESSOR",
-      "author_img":"https://media.istockphoto.com/photos/young-professor-picture-id610021016?k=20&m=610021016&s=612x612&w=0&h=z8D8uPDjzPZzvGl2NLUL924CERD3kL3GERxzmiJkJoo=",
-      "img": "https://cdn.pixabay.com/photo/2019/10/23/09/25/board-4570995__340.jpg"
-    },
-    
-    {
-      "id": "03",
-      "name": "JAVASCRIPT",
-      "author": " John Doe",
-      "rating":"5.00",
-      "author_img":"https://media.istockphoto.com/photos/portrait-of-confident-caucasian-male-teacher-in-classroom-picture-id515264678?k=20&m=515264678&s=612x612&w=0&h=CA_SJX9Jc8-76KqwV60LcFD3CLRMQG8KSA9lImVrd8k=",
-      "img": "https://media.istockphoto.com/photos/paper-width-word-javascript-and-laptop-glasses-and-coffee-on-wooden-picture-id1272412780?k=20&m=1272412780&s=612x612&w=0&h=j9v_8NrxAASxKPdJD0eDFqXwoNjBq-ijRKWMzalmWOk="
-    },
-    {
-      "id": "05",
-      "name": "NODE JS", 
-      "author": "Andrew Ng",
-      "rating":"5.00",
-      "author_img":"https://media.istockphoto.com/photos/math-teacher-in-the-classroom-picture-id1358852926?k=20&m=1358852926&s=612x612&w=0&h=J7tbkoVSpEDRH601ZMVL6eJSepl-F2pcS2-FOZVT-Uc=",
-      "img": "https://media.istockphoto.com/photos/nodejs-inscription-against-laptop-and-code-background-picture-id1347542592?k=20&m=1347542592&s=612x612&w=0&h=nILigttTHwiYwHHbhqWsn9aAV3uE5z4vaq5KobX_bBA="
-    },
-    {
-      "id": "06",
-      "author": "Kevin Dorsey",
-      "name":  "MACHINE LEARNING",
-      "rating":"5.00",
-      "author_img":"https://media.istockphoto.com/photos/smiling-male-ceo-posing-alone-in-modern-office-picture-id1219224632?k=20&m=1219224632&s=612x612&w=0&h=K0XmWDhZkA-P1L4rrrKUFPnWn_5mHraCMHf8Oc17yYg=",
-      "img": "https://cdn.pixabay.com/photo/2020/05/07/18/25/tech-5142625__340.jpg"
-    }
-  ]
+  {
+    "_id": "11468ed61aee84de492a8b04158a22f9",
+    "category_id": "03",
+    "id": "03",
+    "name": "JAVASCRIPT",
+    "author": "John Doe",
+    "rating": "5.00",
+    "reviews_count": 1850,
+    "video": "30",
+    "duration": "08 hr 15 min",
+    "language": "English",
+    "question": "120",
+    "level": "Secondary",
+    "certificate": "Yes",
+    "students": "2.5k",
+    "price": 49.99,
+    "discount_price": 29.99,
+    "is_bestseller": true,
+    "last_updated": "2024-11-15",
+    "enrollment_deadline": null,
+    "author_img": "https://media.istockphoto.com/photos/portrait-of-confident-caucasian-male-teacher-in-classroom-picture-id515264678?k=20&m=515264678&s=612x612&w=0&h=CA_SJX9Jc8-76KqwV60LcFD3CLRMQG8KSA9lImVrd8k=",
+    "img": "https://media.istockphoto.com/photos/paper-width-word-javascript-and-laptop-glasses-and-coffee-on-wooden-picture-id1272412780?k=20&m=1272412780&s=612x612&w=0&h=j9v_8NrxAASxKPdJD0eDFqXwoNjBq-ijRKWMzalmWOk=",
+    "detail": "JavaScript is the globally used client-side scripting language for the web. Most browsers support the language by default, so you can get started using JavaScript and HTML with a simple text editor and browser for testing. This class introduces the JavaScript language, with a focus on advanced language features and client-side programming. Topics covered include basic syntax, object-oriented programming, closures, higher-order functions, the DOM, and AJAX.",
+    "what_you_will_learn": [
+      "Master JavaScript fundamentals and ES6+ features",
+      "Build interactive web applications from scratch",
+      "Understand asynchronous programming and promises",
+      "Work with modern frameworks and libraries",
+      "Implement RESTful APIs and AJAX calls",
+      "Debug and optimize JavaScript code efficiently"
+    ],
+    "requirements": [
+      "Basic HTML and CSS knowledge",
+      "Understanding of programming concepts",
+      "Computer with internet connection"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "JavaScript Fundamentals",
+        "lectures": 8,
+        "duration": "2 hr 15 min"
+      },
+      {
+        "section": 2,
+        "title": "DOM Manipulation & Events",
+        "lectures": 7,
+        "duration": "1 hr 50 min"
+      },
+      {
+        "section": 3,
+        "title": "Advanced JavaScript Concepts",
+        "lectures": 9,
+        "duration": "2 hr 30 min"
+      },
+      {
+        "section": 4,
+        "title": "Modern JavaScript & Projects",
+        "lectures": 6,
+        "duration": "1 hr 40 min"
+      }
+    ],
+    "tags": ["javascript", "web development", "programming", "frontend"],
+    "difficulty": "intermediate",
+    "completion_time": "3-4 weeks",
+    "instructor_rating": "4.9"
+  },
+  {
+    "_id": "11468ed61aee84de492a8b04158a22f0",
+    "category_id": "01",
+    "id": "01",
+    "author": "Tamy Chapman",
+    "name": "UI/UX DESIGN",
+    "rating": "5.00",
+    "reviews_count": 1245,
+    "video": "20",
+    "duration": "05 hr 10 min",
+    "language": "English",
+    "question": "90",
+    "level": "Secondary",
+    "certificate": "Yes",
+    "students": "1.8k",
+    "price": 59.99,
+    "discount_price": 34.99,
+    "is_bestseller": false,
+    "last_updated": "2024-12-01",
+    "enrollment_deadline": null,
+    "author_img": "https://media.istockphoto.com/photos/confident-young-man-in-casual-green-shirt-looking-away-standing-with-picture-id1324558913?k=20&m=1324558913&s=612x612&w=0&h=U0XYpDKe9XqHgZGvjgo98poEC_20QO-UePiNY8_87jI=",
+    "img": "https://media.istockphoto.com/photos/website-designer-creative-planning-application-developer-development-picture-id1206638576?b=1&k=20&m=1206638576&s=170667a&w=0&h=NxHnlT5fVqBEVAPmM8Me77cC6JCLZrTFYlnI6VYyeXE=",
+    "detail": "The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone. To become a UX Designer, you will need to learn and develop a number of technical skills crucial to the role, including user research and strategy (which involves data collection), wire framing and prototyping, user interface design, and responsive web design, among others.",
+    "what_you_will_learn": [
+      "Conduct user research and create user personas",
+      "Design wireframes and high-fidelity mockups",
+      "Master Figma and Adobe XD tools",
+      "Implement responsive design principles",
+      "Build interactive prototypes",
+      "Create a professional design portfolio"
+    ],
+    "requirements": [
+      "Basic computer skills",
+      "Creative mindset",
+      "No prior design experience required"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Introduction to UI/UX Design",
+        "lectures": 5,
+        "duration": "1 hr 20 min"
+      },
+      {
+        "section": 2,
+        "title": "User Research & Analysis",
+        "lectures": 6,
+        "duration": "1 hr 45 min"
+      },
+      {
+        "section": 3,
+        "title": "Wireframing & Prototyping",
+        "lectures": 5,
+        "duration": "1 hr 30 min"
+      },
+      {
+        "section": 4,
+        "title": "Visual Design & Portfolio",
+        "lectures": 4,
+        "duration": "35 min"
+      }
+    ],
+    "tags": ["ui design", "ux design", "figma", "design"],
+    "difficulty": "beginner",
+    "completion_time": "2-3 weeks",
+    "instructor_rating": "4.8"
+  },
+  {
+    "_id": "f69a695f037cd9484cecaea37ca71012",
+    "category_id": "02",
+    "id": "02",
+    "author": "Dana Saito",
+    "name": "COMPUTER NETWORK",
+    "rating": "4.89",
+    "reviews_count": 2340,
+    "video": "40",
+    "duration": "20 hr",
+    "language": "English",
+    "question": "290",
+    "level": "Higher",
+    "certificate": "Yes",
+    "students": "3.2k",
+    "price": 79.99,
+    "discount_price": 44.99,
+    "is_bestseller": true,
+    "last_updated": "2024-10-20",
+    "enrollment_deadline": null,
+    "author_img": "https://media.istockphoto.com/photos/portrait-of-smiling-professor-in-the-amphitheater-picture-id1128666909?k=20&m=1128666909&s=612x612&w=0&h=Kuk_id7fnDBVBW-2SpGjId0wptbUUefyVhM7RzaPeOI=",
+    "img": "https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__340.jpg",
+    "detail": "Computer Networks course provides an introduction to computer networks, with a special focus on Internet architecture and protocols. Topics include layered network architectures, addressing, naming, forwarding, routing, communication reliability, the client-server model, web, and email protocols. Computer Networking courses offered through equip learners with knowledge in the fundamentals of computer networks; network security; network architecture; computer communications; software-defined networking; and more.",
+    "what_you_will_learn": [
+      "Understand TCP/IP protocol suite",
+      "Configure network devices and routers",
+      "Implement network security measures",
+      "Design scalable network architectures",
+      "Troubleshoot network issues",
+      "Prepare for CCNA certification"
+    ],
+    "requirements": [
+      "Basic IT knowledge",
+      "Understanding of operating systems",
+      "Familiarity with command line"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Network Fundamentals",
+        "lectures": 10,
+        "duration": "5 hr"
+      },
+      {
+        "section": 2,
+        "title": "Network Protocols & Architecture",
+        "lectures": 12,
+        "duration": "6 hr"
+      },
+      {
+        "section": 3,
+        "title": "Routing & Switching",
+        "lectures": 10,
+        "duration": "5 hr"
+      },
+      {
+        "section": 4,
+        "title": "Network Security & Management",
+        "lectures": 8,
+        "duration": "4 hr"
+      }
+    ],
+    "tags": ["networking", "ccna", "cisco", "network security"],
+    "difficulty": "advanced",
+    "completion_time": "8-10 weeks",
+    "instructor_rating": "4.9"
+  },
+  {
+    "_id": "e342b6c0c8efc8ca9e811991dc8a7900",
+    "category_id": "04",
+    "id": "04",
+    "author": "Brad Gilpin",
+    "rating": "5.00",
+    "reviews_count": 890,
+    "video": "12",
+    "duration": "07 hr 10 min",
+    "language": "English",
+    "question": "110",
+    "level": "Beginner",
+    "certificate": "No",
+    "students": "1.2k",
+    "name": "MICROPROCESSOR",
+    "price": 39.99,
+    "discount_price": 19.99,
+    "is_bestseller": false,
+    "last_updated": "2024-09-10",
+    "enrollment_deadline": null,
+    "author_img": "https://media.istockphoto.com/photos/young-professor-picture-id610021016?k=20&m=610021016&s=612x612&w=0&h=z8D8uPDjzPZzvGl2NLUL924CERD3kL3GERxzmiJkJoo=",
+    "img": "https://cdn.pixabay.com/photo/2019/10/23/09/25/board-4570995__340.jpg",
+    "detail": "Basics of Microprocessor – It performs some basic operations like addition, subtraction, multiplication, division, and some logical operations using its Arithmetic and Logical Unit (ALU). New Microprocessors also perform operations on floating-point numbers also. A microprocessor system consists of data input, storage, processing and output devices, under the control of a CPU. The main unit of a desktop PC is a modular system, consisting of the motherboard, power supply and disk drives.",
+    "what_you_will_learn": [
+      "Understand microprocessor architecture",
+      "Learn assembly language programming",
+      "Interface peripherals with microprocessors",
+      "Design embedded systems",
+      "Work with 8085 and 8086 processors",
+      "Debug hardware and software issues"
+    ],
+    "requirements": [
+      "Basic electronics knowledge",
+      "Digital logic fundamentals",
+      "Programming basics"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Introduction to Microprocessors",
+        "lectures": 3,
+        "duration": "1 hr 45 min"
+      },
+      {
+        "section": 2,
+        "title": "8085 Architecture",
+        "lectures": 4,
+        "duration": "2 hr 30 min"
+      },
+      {
+        "section": 3,
+        "title": "Assembly Language Programming",
+        "lectures": 3,
+        "duration": "2 hr"
+      },
+      {
+        "section": 4,
+        "title": "Interfacing & Applications",
+        "lectures": 2,
+        "duration": "55 min"
+      }
+    ],
+    "tags": ["microprocessor", "embedded systems", "assembly", "hardware"],
+    "difficulty": "beginner",
+    "completion_time": "3-4 weeks",
+    "instructor_rating": "4.7"
+  },
+  {
+    "_id": "f06f8cc035b04bd1158e4198281915a3",
+    "category_id": "05",
+    "id": "05",
+    "name": "NODE JS",
+    "author": "Andrew Ng",
+    "rating": "5.00",
+    "reviews_count": 1680,
+    "video": "120",
+    "duration": "74 hr 30 min",
+    "language": "English",
+    "question": "510",
+    "level": "Expert",
+    "certificate": "Yes",
+    "students": "4.5k",
+    "price": 99.99,
+    "discount_price": 54.99,
+    "is_bestseller": true,
+    "last_updated": "2024-11-28",
+    "enrollment_deadline": null,
+    "author_img": "https://media.istockphoto.com/photos/math-teacher-in-the-classroom-picture-id1358852926?k=20&m=1358852926&s=612x612&w=0&h=J7tbkoVSpEDRH601ZMVL6eJSepl-F2pcS2-FOZVT-Uc=",
+    "img": "https://media.istockphoto.com/photos/nodejs-inscription-against-laptop-and-code-background-picture-id1347542592?k=20&m=1347542592&s=612x612&w=0&h=nILigttTHwiYwHHbhqWsn9aAV3uE5z4vaq5KobX_bBA=",
+    "detail": "Node JS Course Overview. The Node JS certification training course helps you gain an in-depth knowledge of concepts such as Express.js, Node Packet Manager (NPM), shrink-wrap, NPM Vet, REST, Express.js with MongoDB, and SQLite CRUD operations. Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.",
+    "what_you_will_learn": [
+      "Build scalable backend applications with Node.js",
+      "Master Express.js framework",
+      "Work with MongoDB and SQL databases",
+      "Implement RESTful and GraphQL APIs",
+      "Handle authentication and authorization",
+      "Deploy applications to cloud platforms"
+    ],
+    "requirements": [
+      "Strong JavaScript knowledge",
+      "Understanding of web development",
+      "Familiarity with APIs"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Node.js Fundamentals",
+        "lectures": 25,
+        "duration": "15 hr"
+      },
+      {
+        "section": 2,
+        "title": "Express.js & REST APIs",
+        "lectures": 30,
+        "duration": "18 hr 30 min"
+      },
+      {
+        "section": 3,
+        "title": "Database Integration",
+        "lectures": 35,
+        "duration": "21 hr"
+      },
+      {
+        "section": 4,
+        "title": "Advanced Topics & Deployment",
+        "lectures": 30,
+        "duration": "20 hr"
+      }
+    ],
+    "tags": ["nodejs", "backend", "express", "api", "mongodb"],
+    "difficulty": "advanced",
+    "completion_time": "12-16 weeks",
+    "instructor_rating": "5.0"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f7",
+    "category_id": "06",
+    "id": "06",
+    "author": "Kevin Dorsey",
+    "name": "MACHINE LEARNING",
+    "rating": "5.00",
+    "reviews_count": 1520,
+    "video": "80",
+    "duration": "10 hr 30 min",
+    "language": "English",
+    "question": "100",
+    "level": "Secondary",
+    "certificate": "Yes",
+    "students": "2.8k",
+    "price": 89.99,
+    "discount_price": 49.99,
+    "is_bestseller": true,
+    "last_updated": "2024-11-05",
+    "enrollment_deadline": null,
+    "author_img": "https://media.istockphoto.com/photos/smiling-male-ceo-posing-alone-in-modern-office-picture-id1219224632?k=20&m=1219224632&s=612x612&w=0&h=K0XmWDhZkA-P1L4rrrKUFPnWn_5mHraCMHf8Oc17yYg=",
+    "img": "https://cdn.pixabay.com/photo/2020/05/07/18/25/tech-5142625__340.jpg",
+    "detail": "Machine Learning is the study of how to build computer systems that learn from experience. It is a subfield of Artificial Intelligence and intersects with statistics, cognitive science, information theory, and probability theory, among others. The syllabus for Machine Learning is vast and covers various areas of study in Artificial Intelligence, Data Science, Deep Learning, etc.",
+    "what_you_will_learn": [
+      "Master supervised and unsupervised learning",
+      "Build neural networks from scratch",
+      "Implement popular ML algorithms",
+      "Work with TensorFlow and PyTorch",
+      "Handle real-world datasets",
+      "Deploy ML models to production"
+    ],
+    "requirements": [
+      "Python programming",
+      "Basic mathematics and statistics",
+      "Linear algebra fundamentals"
+    ],
+    "curriculum": [
+      {
+        "section": 1,
+        "title": "Introduction to Machine Learning",
+        "lectures": 15,
+        "duration": "2 hr"
+      },
+      {
+        "section": 2,
+        "title": "Supervised Learning Algorithms",
+        "lectures": 20,
+        "duration": "3 hr"
+      },
+      {
+        "section": 3,
+        "title": "Deep Learning & Neural Networks",
+        "lectures": 25,
+        "duration": "3 hr 30 min"
+      },
+      {
+        "section": 4,
+        "title": "Advanced Topics & Projects",
+        "lectures": 20,
+        "duration": "2 hr"
+      }
+    ],
+    "tags": ["machine learning", "ai", "python", "tensorflow", "data science"],
+    "difficulty": "intermediate",
+    "completion_time": "6-8 weeks",
+    "instructor_rating": "4.9"
+  }
+]
